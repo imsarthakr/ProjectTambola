@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quarantine Tambola</title>
+    <link href="TambolaStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="back">
+        <div class="boxmain">
+            <h1 class="quat">TAMBOLA PARTY</h1>
+            <div class="player-details">
+                <form autocomplete="off">
+                    <div id="playerDetails">
+                        <label class="label1"> Name</label>
+                        <input id="NameTxt" type="text" name="name"><br>
+                        <label class="label2"> Amount</label>
+                        <input id="Amount" type="text" name="amount"><br>
+                        <button type="button" id="genButton" onclick="genticketButton()">Generate Ticket</button>
+                </form>
+
+                
+            </div>
+            
+            </div>
+
+        </div><br><br><br><br><br><br>
+        <div id="genticket"><br><br><br>
+            <h2>Tambola Party Ticket</h2>
+            <div id="ticket">
+                <div id="row1"></div>
+                <div id="row2"></div>
+                <div id="row3"></div>
+            </div>
+        </div>
+
+
+
+        <div id="playerInfo">
+            <pre></pre>
+        </div>
+        <form id="fre">
+            <div id="randomNumber">
+                <form autocomplete="off">
+                    <div id="numberGen">
+                        <h1>Your Lucky Number is</h1>
+                        <div id="numberran">0</div>
+                        <button id="start" onclick="start()">Next Number</button>
+                        
+                        <br>
+                        <div id="text">Number Chart</div><br>
+                        <div id="button2"></div>
+                    </div>
+                </form>
+    </div>
+    <script src="TambolaScript.js"></script>
+</body>
+
+</html>
